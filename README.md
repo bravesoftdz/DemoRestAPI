@@ -16,6 +16,7 @@ Implemented by:
 Access CustomerService using next REST requests:
 
 <b>GET</b>: localhost:80/api/v1/customers/ - get all customers 
+
 <b>GET</b>: localhost:80/api/v1/customers/1 - get customer with ID 1
 
 <b>POST</b>: localhost:80/api/v1/customers/ 
