@@ -38,5 +38,5 @@ Also negative answers (not a valid request or an error):
 Positive answers:
 1. HttpStatus.OK
 
-!!!This project was made for educational purposes.
+<b><l>!!!This project was made for educational purposes.</l></b>
 
