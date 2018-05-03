@@ -13,7 +13,7 @@ Implemented by:
 
 
 
-Access CustomerService using next REST requests:
+<i>Access CustomerService using next REST requests:</i>
 
 <b>GET</b>: localhost:80/api/v1/customers/ - get all customers 
 
@@ -30,12 +30,14 @@ Request body: { "id": 2, "firstName": "Denis", "lastName": "Denisov", "address":
 <b>DELETE</b>: localhost:80/api/v1/customers/2 - delete customer with ID 2
 
 
-Also negative answers (not a valid request or an error):
+<b>Also:</b>
+
+<i>Negative answers (not a valid request or an error):</i>
 1. HttpStatus.BAD_REQUEST
 2. HttpStatus.NOT_FOUND
 3. HttpStatus.NO_CONTENT
 
-Positive answers:
+<i>Positive answers:</i>
 1. HttpStatus.OK
 
 <b><i>!!!This project was made for educational purposes.</i></b>
