@@ -9,7 +9,7 @@ Implemented by:
 1. Addition;
 2. Removal;
 3. Search;
-4. Get the entire list of buyers.
+4. Get the entire list of customers.
 
 
 
