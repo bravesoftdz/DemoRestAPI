@@ -15,11 +15,14 @@ Implemented by:
 
 Access CustomerService using next REST requests:
 
-<b>GET</b>: localhost:80/api/v1/customers/ - get all customers GET: localhost:9966/api/v1/customers/1 - get customer with ID 1
+<b>GET</b>: localhost:80/api/v1/customers/ - get all customers 
+<b>GET</b>: localhost:80/api/v1/customers/1 - get customer with ID 1
 
-<b>POST</b>: localhost:80/api/v1/customers/ Request body: { "firstName": "Olga", "lastName": "Ivanova", "address": "Miinsk", "budget": "500" }
+<b>POST</b>: localhost:80/api/v1/customers/ 
+Request body: { "firstName": "Olga", "lastName": "Ivanova", "address": "Miinsk", "budget": "500" }
 
-<b>PUT</b>: localhost:80/api/v1/customers/ Request body: { "id": 2, "firstName": "Denis", "lastName": "Denisov", "address": "Minsk, Nemiga", "budget": "200" }
+<b>PUT</b>: localhost:80/api/v1/customers/ 
+Request body: { "id": 2, "firstName": "Denis", "lastName": "Denisov", "address": "Minsk, Nemiga", "budget": "200" }
 
 <b>DELETE</b>: localhost:80/api/v1/customers/2 - delete customer with ID 2
 
